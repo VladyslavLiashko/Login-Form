@@ -19,7 +19,7 @@
             <main>
                 <form action="">
                     <input type="email" placeholder="Email" name="mail" required autofocus>
-                    <input type="password" placeholder="Password" name="pass" required>
+                    <input type="password" placeholder="Password" name="pswrd" required minlength="6" maxlength="15">
                     <div class="rememberMe">
                         <input type="checkbox" id="checkbox">
                         <p>Remember me</p>
@@ -34,6 +34,22 @@
                 <div class="links">
                     <a href="#"><img src="img/facebook.png" alt="" srcset=""></a>
                     <a href="#"><img src="img/U.png" alt="" srcset=""></a>
+                </div>
+            </main>
+        </div>
+        <div class="sign-up-wrapper">
+            <header>SIGN UP</header>
+            <main>
+                <form action="">
+                    <input type="text" placeholder="Name" required autofocus>
+                    <input type="text" placeholder="Surname" required>
+                    <input type="email" placeholder="Email"  required>
+                    <input type="password" placeholder="Password" name="pass" required minlength="6" maxlength="15">
+                    <input type="password" placeholder="Repeat password" name="repeatPass" required minlength="6" maxlength="15">
+                    <input type="submit" name="signUpBtn" value="Sign Up" id="button">
+                </form>
+                <div class="helperBlock">
+                    <p id="loginBack">Back to Login</p>
                 </div>
             </main>
         </div>
